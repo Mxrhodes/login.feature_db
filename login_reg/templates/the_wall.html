@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Post It</title>
+    <style>
+        body{background-color: rgb(69, 69, 202);}
+        h1{color: whitesmoke; font-size: 40px;}
+        .content{margin-left: 35%; margin-top: 10%;}
+    </style>
+</head>
+<body>
+    <h1>Welcome to Post It, {{session["username"]}} {{session["id"]}}!</h1>
+
+    <a href="/logout">Logout</a>
+    
+</body>
+</html>
